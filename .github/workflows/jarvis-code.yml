@@ -28,7 +28,8 @@ jobs:
       - name: Check GitHub Status
         # Source of GitHub Action in line 30: 
         # https://github.com/dduzgun-security/secure-code-game-action
-        uses: dduzgun-security/secure-code-game-action@v2.0
+        #use https://www.githubstatus.com/api/v2/status.json
+        uses: githubocto/github-status-action@v2
         with:
           who-to-greet: "Jarvis, obviously ..."
           get-token: ""
